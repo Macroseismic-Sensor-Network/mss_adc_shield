@@ -5,4 +5,4 @@ This repository contains the [KiCad](https://www.kicad.org/) design files of the
 # License
 Copyright 2021, Mertl Research GmbH.
 Built upon a design by Daniel Frank.
-Licensed under the [CERN-OHL-S v2](https://ohwr.org/cern ohl s v2.txt).
+Licensed under the [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt).
