@@ -6,6 +6,7 @@
 *.bck
 *.tmp
 *.kicad_pcb-bak
+*.*-bak
 *.lst
 *.ses
 *-cache.lib
