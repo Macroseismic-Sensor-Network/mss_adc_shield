@@ -1,0 +1,21 @@
+Source:,/home/stefan/01_gtd/04_aktuelleProjekte/2019-13_mss_outreach_netidee/02_meilensteine/20200909_mss_produktion/03_adc_platine/MSS.sch
+Date:,Mo 28 Sep 2020 15:02:26 CEST
+Tool:,Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1
+Number of components:,49
+ref,value,quantity,manufacturer,manufacturer part number,package,description,footprint,library,part name
+"C1,C10,C11,C20,C21,C30,C31",1uF,7,Samsung Electro-Mechanics,CL21B105KBFNNNF,0805,"Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)",Capacitor_SMD:C_0805_2012Metric,symbols,C_Small
+CON1,IPL1-104-01-L-S-RE1,1,Samtec,IPL1-104-01-L-S-RE1,IPL1-104-01-L-S-RE1,"Samtec IPL1 single row, 4 pins, right angle, raised",footprints:IPL1-104-01-L-S-RE1,symbols,IPL1-104-01-L-S-RE1
+"CON2,CON3,CON4",IPL1-102-01-L-S,3,Samtec,IPL1-102-01-L-S-RE1,IPL1-102-01-L-S-RE1,"Samtec IPL1 single row, 2 pins, straight",footprints:IPL1-102-01-L-S,symbols,IPL1-102-01-L-S
+D2,BZT52C2V0S-7-F,1,Diodes Incorporated,BZT52C2V0S-7-F,SOD-323,"Zener Diode, 2.0V, 200mW, 5%",Diode_SMD:D_SOD-323,Device,D_Zener_Small_ALT
+D3,150080VS75000,1,Würth Elektronik,150080VS75000,0805,"WL-SMCW SMT Mono-color Chip LED Waterclear, green",LED_SMD:LED_0805_2012Metric,Device,LED
+"D4,D5,D6,D7",150080RV54050,4,Würth Elektronik,150080RV54050,WL-SBCD-0805,"WL-SBCD SMT Bi-color Chip LED Diffused, red - green",footprints:WL-SBCD-0805,symbols,150080RV54050
+J1,RPi,1,Samtec,ESQ-120-44-L-D,20x2 2.54mm pitch,"Elevated Socket Strip, 2.54mm Pitch",footprints:RPi_Socket_Strip_Straight_2x20_Pitch2.54mm,Connector_Generic,Conn_02x20_Odd_Even
+Q1,FDS6576,1,ON Semiconductor,FDS6576,SO-8,"P-Channel MOSFET, 20V DS, 11A, +/-12V GS, 14 mOhm",footprints:ON_751EB_SOIC-8,symbols,FDS6576
+"R1,R10,R20,R30",1k8,4,TE Connectivity,CRG0805F1K8,0805,"TE Connectivity CRG SMD Dickschichtwiderstand, 1,8kΩ ±1% 0,125W, 0805",Resistor_SMD:R_0805_2012Metric,symbols,R_Small
+"R2,R4,R5,R6,R7,R8,R9,R15",680,8,TE Connectivity,CRG0805F680R,0805,"TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805",Resistor_SMD:R_0805_2012Metric,symbols,R_Small
+"R11,R12,R21,R22,R31,R32",100k,6,TE Connectivity,CRG0805F100K,0805,"TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805",Resistor_SMD:R_0805_2012Metric,symbols,R_Small
+"R13,R14,R23,R24,R33,R34",6k2,6,TE Connectivity,CRCW08056K20FKEA,0805,"TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805",Resistor_SMD:R_0805_2012Metric,symbols,R_Small
+R16,1k5,1,TE Connectivity,CRG0805F1K5,0805,"TE Connectivity CRG SMD Dickschichtwiderstand, 1,5kΩ ±1% 0,125W, 0805",Resistor_SMD:R_0805_2012Metric,symbols,R_Small
+SW1,430152043836,1,Würth Elektronik,430152043836,6mm x 6mm,WS-TASV SMT Tact Switch 6x6 mm,footprints:Push_Button_6x6,Switch,SW_Push
+"U1,U2,U3",ADS1114,3,Texas Instruments,ADS1114IDGST,TSSOP10,"ADS111x Ultra-Small, Low-Power, I 2 C-Compatible, 860-SPS, 16-Bit ADCsWith Internal Reference, Oscillator, and Programmable Comparator",Package_SO:TSSOP-10_3x3mm_P0.5mm,symbols,ADS1114
+VR1,1812L110/33MR,1,Littlefuse,1812L110/33MR,PF1812L,"Littelfuse 1.1A Surface Mount Resettable Fuse, 33 V dc",footprints:PF1812L,symbols,Varistance

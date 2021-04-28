@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/footprints.pretty")(options "")(descr ""))
+  (lib (name hedgehog_footprints)(type KiCad)(uri /home/daniel/Dropbox/Workspaces/KiCad/Hedgehog/hedgehog_footprints.pretty)(options "")(descr "")(disabled))
+)

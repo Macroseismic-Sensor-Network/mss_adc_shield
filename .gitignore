@@ -1,0 +1,29 @@
+# Ignore the gvim .swp files.
+*.swp
+
+# Ignore Kicad temporary and backup files.
+*.bak
+*.bck
+*.tmp
+*.kicad_pcb-bak
+*.lst
+*.ses
+*-cache.lib
+_autosave*.kicad_pcb
+
+# Ignore Wings3D temporary and backup files.
+*.wings~
+
+# Ignore librecad temporary files.
+*.dxf~
+
+# Ignore all build directories.
+build
+
+# Ignore some binary files.
+datasheets
+
+# Emacs temporary files.
+*~
+\#*\#
+.#*

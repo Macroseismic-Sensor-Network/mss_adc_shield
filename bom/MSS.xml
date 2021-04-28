@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/stefan/01_gtd/04_aktuelleProjekte/2019-13_mss_outreach_netidee/02_meilensteine/20200909_mss_produktion/03_adc_platine/MSS.sch</source>
+    <date>Mo 28 Sep 2020 15:02:26 CEST</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MacroSeismic Sensor</title>
+        <company>Mertl Research GmbH</company>
+        <rev>2.0</rev>
+        <date>2020-09-17</date>
+        <source>MSS.sch</source>
+        <comment number="1" value="Stefan Mertl"/>
+        <comment number="2" value="contributing authors: Daniel Frank (Version 1.0)"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R31">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F100K</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59013A44</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F100K</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59013B18</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>6k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRCW08056K20FKEA</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59013B98</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>6k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRCW08056K20FKEA</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59013C17</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59013FE8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ADS1114</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <fields>
+        <field name="Desc">ADS111x Ultra-Small, Low-Power, I 2 C-Compatible, 860-SPS, 16-Bit ADCs
+With Internal Reference, Oscillator, and Programmable Comparator</field>
+        <field name="Manu">Texas Instruments</field>
+        <field name="Manu#">ADS1114IDGST</field>
+        <field name="Package">TSSOP10</field>
+      </fields>
+      <libsource lib="symbols" part="ADS1114" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5901DA10</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5901F2ED</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 1,8kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F1K8</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>590200CC</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F100K</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021B83</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F100K</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021B89</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>6k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRCW08056K20FKEA</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021B8F</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>6k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRCW08056K20FKEA</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021B95</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021B9B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1114</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <fields>
+        <field name="Desc">ADS111x Ultra-Small, Low-Power, I 2 C-Compatible, 860-SPS, 16-Bit ADCs
+With Internal Reference, Oscillator, and Programmable Comparator</field>
+        <field name="Manu">Texas Instruments</field>
+        <field name="Manu#">ADS1114IDGST</field>
+        <field name="Package">TSSOP10</field>
+      </fields>
+      <libsource lib="symbols" part="ADS1114" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021BA7</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021BBC</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 1,8kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F1K8</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59021BEE</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F100K</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59022114</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 100kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F100K</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5902211A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>6k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRCW08056K20FKEA</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59022120</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>6k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 6,2kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRCW08056K20FKEA</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59022126</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5902212C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ADS1114</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <fields>
+        <field name="Desc">ADS111x Ultra-Small, Low-Power, I 2 C-Compatible, 860-SPS, 16-Bit ADCs
+With Internal Reference, Oscillator, and Programmable Comparator</field>
+        <field name="Manu">Texas Instruments</field>
+        <field name="Manu#">ADS1114IDGST</field>
+        <field name="Package">TSSOP10</field>
+      </fields>
+      <libsource lib="symbols" part="ADS1114" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59022138</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5902214D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 1,8kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F1K8</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5902217F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 1,8kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F1K8</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59028557</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">Samsung, CL, SMD MLCC, Vielschicht Keramikkondensator X7R, 1μF ±10% / 50V dc, Gehäuse 0805 (2012M)</field>
+        <field name="Manu">Samsung Electro-Mechanics</field>
+        <field name="Manu#">CL21B105KBFNNNF</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909225F</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>IPL1-104-01-L-S-RE1</value>
+      <footprint>footprints:IPL1-104-01-L-S-RE1</footprint>
+      <fields>
+        <field name="Desc">Samtec IPL1 single row, 4 pins, right angle, raised</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">IPL1-104-01-L-S-RE1</field>
+        <field name="Package">IPL1-104-01-L-S-RE1</field>
+      </fields>
+      <libsource lib="symbols" part="IPL1-104-01-L-S-RE1" description="Samtec IPL1 single row, 4 pins, right angle, raised"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BF7B4</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDS6576</value>
+      <footprint>footprints:ON_751EB_SOIC-8</footprint>
+      <fields>
+        <field name="Desc">P-Channel MOSFET, 20V DS, 11A, +/-12V GS, 14 mOhm</field>
+        <field name="Manu">ON Semiconductor</field>
+        <field name="Manu#">FDS6576</field>
+        <field name="Package">SO-8</field>
+      </fields>
+      <libsource lib="symbols" part="FDS6576" description="P-Channel MOSFET, -60 V, -47 A, 26 mOhm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70EFE3</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>1812L110/33MR</value>
+      <footprint>footprints:PF1812L</footprint>
+      <fields>
+        <field name="Desc">Littelfuse 1.1A Surface Mount Resettable Fuse, 33 V dc</field>
+        <field name="Manu">Littlefuse</field>
+        <field name="Manu#">1812L110/33MR</field>
+        <field name="Package">PF1812L</field>
+      </fields>
+      <libsource lib="symbols" part="Varistance" description="Varistance"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F71A71D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BZT52C2V0S-7-F</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Desc">Zener Diode, 2.0V, 200mW, 5%</field>
+        <field name="Manu">Diodes Incorporated</field>
+        <field name="Manu#">BZT52C2V0S-7-F</field>
+        <field name="Package">SOD-323</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small_ALT" description="Zener diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7853CE</tstamp>
+    </comp>
+    <comp ref="CON2">
+      <value>IPL1-102-01-L-S</value>
+      <footprint>footprints:IPL1-102-01-L-S</footprint>
+      <fields>
+        <field name="Desc">Samtec IPL1 single row, 2 pins, straight</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">IPL1-102-01-L-S-RE1</field>
+        <field name="Package">IPL1-102-01-L-S-RE1</field>
+      </fields>
+      <libsource lib="symbols" part="IPL1-102-01-L-S" description="Samtec IPL1 single row, 2 pins, straight"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92F872</tstamp>
+    </comp>
+    <comp ref="CON3">
+      <value>IPL1-102-01-L-S</value>
+      <footprint>footprints:IPL1-102-01-L-S</footprint>
+      <fields>
+        <field name="Desc">Samtec IPL1 single row, 2 pins, straight</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">IPL1-102-01-L-S-RE1</field>
+        <field name="Package">IPL1-102-01-L-S-RE1</field>
+      </fields>
+      <libsource lib="symbols" part="IPL1-102-01-L-S" description="Samtec IPL1 single row, 2 pins, straight"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D3439</tstamp>
+    </comp>
+    <comp ref="CON4">
+      <value>IPL1-102-01-L-S</value>
+      <footprint>footprints:IPL1-102-01-L-S</footprint>
+      <fields>
+        <field name="Desc">Samtec IPL1 single row, 2 pins, straight</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">IPL1-102-01-L-S-RE1</field>
+        <field name="Package">IPL1-102-01-L-S-RE1</field>
+      </fields>
+      <libsource lib="symbols" part="IPL1-102-01-L-S" description="Samtec IPL1 single row, 2 pins, straight"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EF9C1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>430152043836</value>
+      <footprint>footprints:Push_Button_6x6</footprint>
+      <fields>
+        <field name="Desc">WS-TASV SMT Tact Switch 6x6 mm</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">430152043836</field>
+        <field name="Package">6mm x 6mm</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA727AF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RPi</value>
+      <footprint>footprints:RPi_Socket_Strip_Straight_2x20_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Desc">Elevated Socket Strip, 2.54mm Pitch</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">ESQ-120-44-L-D</field>
+        <field name="Package">20x2 2.54mm pitch</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59011428</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB0A5BC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB5A527</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>150080RV54050</value>
+      <footprint>footprints:WL-SBCD-0805</footprint>
+      <fields>
+        <field name="Desc">WL-SBCD SMT Bi-color Chip LED Diffused, red - green</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">150080RV54050</field>
+        <field name="Package">WL-SBCD-0805</field>
+      </fields>
+      <libsource lib="symbols" part="150080RV54050" description="WL-SBCD SMT Bi-color Chip LED Diffused, red - green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB02297</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFE1DD5</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFE1DEB</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>150080RV54050</value>
+      <footprint>footprints:WL-SBCD-0805</footprint>
+      <fields>
+        <field name="Desc">WL-SBCD SMT Bi-color Chip LED Diffused, red - green</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">150080RV54050</field>
+        <field name="Package">WL-SBCD-0805</field>
+      </fields>
+      <libsource lib="symbols" part="150080RV54050" description="WL-SBCD SMT Bi-color Chip LED Diffused, red - green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFE1DFE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60003BAC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60003BC2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>150080RV54050</value>
+      <footprint>footprints:WL-SBCD-0805</footprint>
+      <fields>
+        <field name="Desc">WL-SBCD SMT Bi-color Chip LED Diffused, red - green</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">150080RV54050</field>
+        <field name="Package">WL-SBCD-0805</field>
+      </fields>
+      <libsource lib="symbols" part="150080RV54050" description="WL-SBCD SMT Bi-color Chip LED Diffused, red - green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60003BD5</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60003BEE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 680Ω ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F680R</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60003C04</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>150080RV54050</value>
+      <footprint>footprints:WL-SBCD-0805</footprint>
+      <fields>
+        <field name="Desc">WL-SBCD SMT Bi-color Chip LED Diffused, red - green</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">150080RV54050</field>
+        <field name="Package">WL-SBCD-0805</field>
+      </fields>
+      <libsource lib="symbols" part="150080RV54050" description="WL-SBCD SMT Bi-color Chip LED Diffused, red - green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60003C17</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>150080VS75000</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">WL-SMCW SMT Mono-color Chip LED Waterclear, green</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">150080VS75000</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60163EC7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">TE Connectivity CRG SMD Dickschichtwiderstand, 1,5kΩ ±1% 0,125W, 0805</field>
+        <field name="Manu">TE Connectivity</field>
+        <field name="Manu#">CRG0805F1K5</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="symbols" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60164ACC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_Small_ALT">
+      <description>Zener diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="150080RV54050">
+      <description>WL-SBCD SMT Bi-color Chip LED Diffused, red - green</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">150080RV54050</field>
+        <field name="Footprint">footprints:WL-SBCD-0805</field>
+        <field name="Manu">Würth Elektronik</field>
+        <field name="Manu#">150080RV54050</field>
+        <field name="Package">WL-SBCD-0805</field>
+        <field name="Desc">WL-SBCD SMT Bi-color Chip LED Diffused, red - green</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="ADS1114">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1114</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="openCol"/>
+        <pin num="10" name="SCL" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Manu">Manufacturer</field>
+        <field name="Manu#">Manufacturer part number</field>
+        <field name="Package">Component package</field>
+        <field name="Desc">Component description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="FDS6576">
+      <description>P-Channel MOSFET, -60 V, -47 A, 26 mOhm</description>
+      <footprints>
+        <fp>TO?220*3</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDS6576</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Manu">ON Semiconductor</field>
+        <field name="Manu#">FDS6576</field>
+        <field name="Package">SO-8</field>
+        <field name="Desc">P-Channel MOSFET, 20V DS, 11A, +/-12V GS, 14 mOhm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="IPL1-102-01-L-S">
+      <description>Samtec IPL1 single row, 2 pins, straight</description>
+      <footprints>
+        <fp>TO?220*3</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">IPL1-102-01-L-S</field>
+        <field name="Footprint">footprints:IPL1-102-01-L-S</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">IPL1-102-01-L-S-RE1</field>
+        <field name="Package">IPL1-102-01-L-S-RE1</field>
+        <field name="Desc">Samtec IPL1 single row, 2 pins, straight</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="IPL1-104-01-L-S-RE1">
+      <description>Samtec IPL1 single row, 4 pins, right angle, raised</description>
+      <footprints>
+        <fp>TO?220*3</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">IPL1-104-01-L-S-RE1</field>
+        <field name="Footprint">footprints:IPL1-104-01-L-S-RE1</field>
+        <field name="Manu">Samtec</field>
+        <field name="Manu#">IPL1-104-01-L-S-RE1</field>
+        <field name="Package">IPL1-104-01-L-S-RE1</field>
+        <field name="Desc">Samtec IPL1 single row, 4 pins, right angle, raised</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Manu">Manufacturer</field>
+        <field name="Manu#">Manufacturer part number</field>
+        <field name="Package">Component package</field>
+        <field name="Desc">Component description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbols" part="Varistance">
+      <description>Varistance</description>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">Varistance</field>
+        <field name="Manu">Manufacturer</field>
+        <field name="Manu#">Manufacturer part number.</field>
+        <field name="Package">The package of the part.</field>
+        <field name="Desc">Custom description.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="symbols">
+      <uri>/home/stefan/01_gtd/04_aktuelleProjekte/2019-13_mss_outreach_netidee/02_meilensteine/20200909_mss_produktion/03_adc_platine/symbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SDA">
+      <node ref="U2" pin="9"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="RDY_3">
+      <node ref="J1" pin="11"/>
+      <node ref="R30" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="3" name="SCL">
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="D4" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J1" pin="34"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="39"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="30"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="CON1" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="6" name="RDY_2">
+      <node ref="R20" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="7" name="RDY_1">
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad33)">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad27)">
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad28)">
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad32)">
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad35)">
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad36)">
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad37)">
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad38)">
+      <node ref="J1" pin="38"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad40)">
+      <node ref="J1" pin="40"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad16)">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad22)">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="22" name="Net-(Q1-Pad5)">
+      <node ref="VR1" pin="2"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="23" name="Net-(CON1-Pad1)">
+      <node ref="CON1" pin="1"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="CON1" pin="2"/>
+    </net>
+    <net code="24" name="/CH1-">
+      <node ref="R14" pin="2"/>
+      <node ref="CON2" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="25" name="/LED3_R">
+      <node ref="J1" pin="24"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="26" name="/LED1_G">
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="27" name="/LED2_R">
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="28" name="Net-(D3-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="29" name="+5V">
+      <node ref="J1" pin="4"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D5-Pad4)">
+      <node ref="D5" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="31" name="/LED2_G">
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="32" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="35" name="/LED4_R">
+      <node ref="R9" pin="1"/>
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="36" name="Net-(D7-Pad4)">
+      <node ref="R9" pin="2"/>
+      <node ref="D7" pin="4"/>
+    </net>
+    <net code="37" name="/LED4_G">
+      <node ref="R15" pin="1"/>
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="38" name="Net-(D7-Pad3)">
+      <node ref="R15" pin="2"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="39" name="Net-(D6-Pad4)">
+      <node ref="R7" pin="2"/>
+      <node ref="D6" pin="4"/>
+    </net>
+    <net code="40" name="/LED3_G">
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="41" name="Net-(D6-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="D6" pin="3"/>
+    </net>
+    <net code="42" name="Net-(D4-Pad3)">
+      <node ref="R4" pin="2"/>
+      <node ref="D4" pin="3"/>
+    </net>
+    <net code="43" name="/LED1_R">
+      <node ref="J1" pin="18"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D4-Pad4)">
+      <node ref="D4" pin="4"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="45" name="VAA">
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="46" name="/CH2+">
+      <node ref="R21" pin="2"/>
+      <node ref="CON3" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="47" name="/CH2-">
+      <node ref="R22" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="CON3" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="49" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="50" name="Net-(C31-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="51" name="/CH3-">
+      <node ref="R34" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="CON4" pin="1"/>
+    </net>
+    <net code="52" name="/CH3+">
+      <node ref="R33" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="CON4" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2"/>
+      <node ref="R34" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="54" name="Net-(C11-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="55" name="/CH1+">
+      <node ref="R13" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="CON2" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C11-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C11" pin="1"/>
+    </net>
+  </nets>
+</export>
