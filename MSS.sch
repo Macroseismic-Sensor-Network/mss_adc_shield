@@ -10,7 +10,7 @@ Rev "2.0"
 Comp "Mertl Research GmbH"
 Comment1 "Stefan Mertl"
 Comment2 "contributing authors: Daniel Frank (Version 1.0)"
-Comment3 ""
+Comment3 "Licensed under CERN-OHL-S v2"
 Comment4 ""
 $EndDescr
 $Comp
